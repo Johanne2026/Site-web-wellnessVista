@@ -4,37 +4,44 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 
+import doc1 from '../assets/img/doc1.jpg';
+import doc2 from '../assets/img/doc2.jpg';
+import doc3 from '../assets/img/doc3.jpg';
+import doc4 from '../assets/img/doc4.jpg';
+import doc5 from '../assets/img/doc5.jpg';
+import doc6 from '../assets/img/doc6.jpg';
+
 const Doctors = () => {
 
 
     const data = [
         {
-            img: "../assets/img/doc1.jpg",
+            img: doc1,
             name: "Dr. Serena Mitchell",
             specialities: "Orthopedic Surgeon",
         },
         {
-            img: "../assets/img/doc2.jpg",
+            img: doc2,
             name: "Dr. Julian Bennett",
             specialities: "Cardiologist",
         },
         {
-            img: "../assets/img/doc3.jpg",
+            img: doc3,
             name: "Dr. Camila Rodriguez",
             specialities: "Pediatrician",
         },
         {
-            img: "../assets/img/doc4.jpg",
+            img: doc4,
             name: "Dr. Victor Nguyen",
             specialities: "Neurologist",
         },
         {
-            img: "../assets/img/doc5.jpg",
+            img: doc5,
             name: "Dr. Ethan Carter",
             specialities: "Dermatologist",
         },
         {
-            img: "../assets/img/doc6.jpg",
+            img: doc6,
             name: "Dr. Olivia Martinez",
             specialities: "Ophtamologist",
         },
