@@ -4,12 +4,12 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 
-import doc1 from '../assets/img/doc1.jpg';
-import doc2 from '../assets/img/doc2.jpg';
-import doc3 from '../assets/img/doc3.jpg';
-import doc4 from '../assets/img/doc4.jpg';
-import doc5 from '../assets/img/doc5.jpg';
-import doc6 from '../assets/img/doc6.jpg';
+import doc1 from '/img/doc1.jpg';
+import doc2 from '/img/doc2.jpg';
+import doc3 from '/img/doc3.jpg';
+import doc4 from '/img/doc4.jpg';
+import doc5 from '/img/doc5.jpg';
+import doc6 from '/img/doc6.jpg';
 
 const Doctors = () => {
 
